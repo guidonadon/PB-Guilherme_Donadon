@@ -2,7 +2,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FFB6C1&size=35&center=true&vCenter=true&width=1000&lines=+Meu+Nome+é+Guilherme+Donadon;Sejam+Bem+-+Vindos!+:D)](https://git.io/typing-svg) 
 
 <p align="center">
-  <img src="https://github.com/guidonadon/Pics/blob/main/foto%20para%20perfil/1620144817274.jfif" />
+  <img src="https://github.com/guidonadon/Pics/blob/main/foto%20para%20perfil/1620144817274.jfif" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;" />
 </p>
 
 
