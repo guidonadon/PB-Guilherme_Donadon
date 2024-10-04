@@ -1,11 +1,6 @@
-# Oi, eu sou o Guilherme! ![esfera do dragão](https://github.com/guidonadon/Pics/blob/main/foto%20para%20perfil/esfera%20do%20dragao%20(2)%20(1).png)
+# Oi, eu sou o Guilherme!
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FFB6C1&size=35&center=true&vCenter=true&width=1000&lines=+Sejam+Bem+-+Vindos!+:D)](https://git.io/typing-svg) 
-
-<p align="center">
-  <img src="https://github.com/guidonadon/Pics/blob/main/foto%20para%20perfil/IMG_2399%20(1).png" />
-</p>
-
+ ![foto de perfil](https://github.com/guidonadon/Pics/blob/main/foto%20para%20perfil/IMG_2399%20(1).png)
 
 ## Sobre mim :newspaper:
 
