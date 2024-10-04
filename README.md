@@ -1,4 +1,4 @@
-# Oi, eu sou o Guilherme! ![esfera do dragão](https://github.com/guidonadon/Pics/blob/main/foto%20para%20perfil/png-clipart-dragon-ball-xenoverse-2-kai%C5%8D-dragon-ball-z-ultimate-tenkaichi-shenron-others-dragon-orange%20(1).png)
+# Oi, eu sou o Guilherme! ![esfera do dragão](https://github.com/guidonadon/Pics/blob/main/foto%20para%20perfil/esfera%20do%20drag%C3%A3o.png)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FFB6C1&size=35&center=true&vCenter=true&width=1000&lines=+Sejam+Bem+-+Vindos!+:D)](https://git.io/typing-svg) 
 
