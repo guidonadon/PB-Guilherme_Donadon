@@ -20,4 +20,4 @@
 
 ## Sprints
 
-__[Sprint 1](https://github.com/guidonadon/Compass-scholarship/tree/8c7d33a7e5ca574323c7d29e81a1d82f4c9fed03/Sprint%201)__
+__[Sprint 1](https://github.com/guidonadon/Compass-scholarship/tree/c559928ca7a149e4e58576bdf6553b86d2126fec/Sprint%201)__
