@@ -1,1 +1,16 @@
+# Etapas
 
+### 1. Organização das tasks
+ ##### Baixei os arquivos e comecei a estruturação de como eu iria trabalhar, criando a pasta "ecommerce" e colocando o arquivo "dados_de_vendas.csv" nela como mandava as primeiras instruções.
+  ###### [Etapa 1](https://github.com/guidonadon/Compass-scholarship/tree/640c88f6ba1c76bafbc2caa4639a6b3a079d80b1/Sprint%201/desafio/ecommerce)
+### 2. Criação do script
+ ##### Utilizando comandos do terminal do Linux aprendidos durante o curso e incluindo alguns outros de fontes externas, criei um script na distribuição Ubuntu que seguia a proposta aprensentada.
+  ###### [Etapa 2](https://github.com/guidonadon/Compass-scholarship/blob/640c88f6ba1c76bafbc2caa4639a6b3a079d80b1/Sprint%201/desafio/ecommerce/processamento_de_vendas.sh)
+### 3. Geração dos arquivos
+##### Após a execução do scrip pelo período proposto de 4(quatro) dias, foram gerados 8(arquivos), sendo metade no formato .ZIP e metade .txt
+  ###### a. [Etapa 3 - arquivos .Zip](https://github.com/guidonadon/Compass-scholarship/tree/640c88f6ba1c76bafbc2caa4639a6b3a079d80b1/Sprint%201/desafio/ecommerce/vendas/backup)
+  ###### b. [Etapa 3 - arquivos .txt](https://github.com/guidonadon/Compass-scholarship/tree/640c88f6ba1c76bafbc2caa4639a6b3a079d80b1/Sprint%201/desafio/ecommerce/relatorios)
+### 4. Relatório Final
+ ##### Para o relatório final foi proposta a junção dos 4(quatro) arquivos gerados em 1(um) outro arquivo que englobasse os dados de todos os outros, sendo nomeado de relatorio_final.txt
+  ###### [Etapa 4](https://github.com/guidonadon/Compass-scholarship/blob/640c88f6ba1c76bafbc2caa4639a6b3a079d80b1/Sprint%201/desafio/ecommerce/relatorios/relatorio_final.txt)
+  
