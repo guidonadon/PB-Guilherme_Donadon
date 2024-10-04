@@ -1,0 +1,1 @@
+(cat /home/guidonadon/relatorios/relatorio1.txt; echo ""; cat /home/guidonadon/relatorios/relatorio2.txt; echo ""; cat /home/guidonadon/relatorios/relatorio3.txt; echo ""; cat /home/guidonadon/relatorios/relatorio4.txt) > /home/guidonadon/relatorios/relatorio_final.txt
