@@ -1,4 +1,4 @@
-# Oi, eu sou o Guilherme!
+# Oi, meu nome é Guilherme!
 
  ![foto de perfil](https://github.com/guidonadon/Pics/blob/main/foto%20para%20perfil/IMG_2399%20(1).png)
 
