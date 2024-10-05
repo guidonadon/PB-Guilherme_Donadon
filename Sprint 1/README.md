@@ -1,4 +1,6 @@
 # Resumo
+Nessa sprint aprendi sobre o sistema operacional Linux e sobre a montagem de scripts usando comandos diretamente no terminal, além de como executar configurações de rede, criação de diretórios e arquivos tudo também diretamente pelo terminal. Aprendi também sobre montagem e uso de máquinas virtuis e ambiente de terminal do linux no windows utilizando WSL.
+Git e GitHub também foram temas dessa semana, na qual aprendi comandos, desde os básicos até alguns mais avançados para criar um repositório, enviar arquivos, sincronizar com aplicativos tal como VS Code e criar arquivos README usando a linguagem Markdown que facilmente permite editar tais arquivos para uma maior legibilidade e entregar uma estética mais amigável para quem visita o perfil e busca entender as informações ali contatidas.
 
 # Evidências
 
