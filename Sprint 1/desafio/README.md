@@ -2,7 +2,7 @@
 
 ### 1. Organização das tasks
  ##### Baixei os arquivos e comecei a estruturação de como eu iria trabalhar, criando a pasta "ecommerce" e colocando o arquivo "dados_de_vendas.csv" nela como mandava as primeiras instruções.
-  ###### [Etapa 1](https://github.com/guidonadon/Compass-scholarship/tree/640c88f6ba1c76bafbc2caa4639a6b3a079d80b1/Sprint%201/desafio/ecommerce)
+  ###### [Etapa 1](/Sprint%201/desafio/ecommerce)
 ### 2. Criação do script
  ##### Utilizando comandos do terminal do Linux aprendidos durante o curso e incluindo alguns outros de fontes externas, criei um script na distribuição Ubuntu que seguia a proposta aprensentada. O script criado foi em bash e quanto aos comandos usados foram para copiar arquivos (CP), encontrar e mover arquivos (find e mv), além dos comandos, head, tail, cut e wc. Após toda a estruturação de criação das pastas e arquivos, utilizei comando zip para compactar os arquivos e economizar espaço e também rm para remover arquivos que não mais seriam de uso.
   ###### [Etapa 2](/Sprint%201/desafio/ecommerce/processamento_de_vendas.sh)
