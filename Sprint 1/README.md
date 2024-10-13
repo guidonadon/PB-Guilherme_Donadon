@@ -16,4 +16,4 @@ Git e GitHub também foram temas dessa semana, na qual aprendi comandos, desde o
 ### Relatórios criados e Relatório Final 
 #### Após a criação dos relatórios durante a execução do script deve-se tomar cuidado para que a próxima leva de dados sejam adicionadas ao mesmo relatório por possuírem o mesmo nome, ou mesmo no pior dos casos, ter o relatório substituído! ![Relatorios](evidencias/relatorios_criados_e_relatorio_final.png)
 
-# __[Desafio](https://github.com/guidonadon/PB-Guilherme_Donadon/tree/8b7d74d208fd0640d8544d1fe4d665a7153842fa/Sprint%201/desafio)__
+# __[Desafio](/Sprint%201/desafio/)__
