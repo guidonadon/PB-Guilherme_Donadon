@@ -20,4 +20,4 @@
 
 ## Sprints
 
-__[Sprint 1](PB-Guilherme_Donadon/tree/Sprint%201)__
+__[Sprint 1](PB-Guilherme_Donadon/Sprint1)__
