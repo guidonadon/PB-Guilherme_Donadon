@@ -20,4 +20,4 @@
 
 ## Sprints
 
-__[Sprint 1](https://github.com/guidonadon/PB-Guilherme_Donadon/tree/e785b5918254111d93dc2d3bce2385226c6bfe47/Sprint%201)__
+__[Sprint 1](/sprint1)__
