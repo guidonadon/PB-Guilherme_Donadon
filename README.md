@@ -20,4 +20,4 @@
 
 ## Sprints
 
-__[Sprint 1](PB-Guilherme_Donadon/Sprint_1)__
+__[Sprint 1](PB-Guilherme_Donadon/Sprint%201)__
