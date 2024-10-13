@@ -20,4 +20,4 @@
 
 ## Sprints
 
-__[Sprint 1](/sprint1)__
+__[Sprint 1](Sprint 1)__
