@@ -21,3 +21,6 @@
 ## Sprints
 
 __[Sprint 1](Sprint%201/)__
+
+__[Sprint 2](Sprint%202/)__
+
