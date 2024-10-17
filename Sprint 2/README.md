@@ -3,4 +3,4 @@ No desenvolver da Sprint 2 aprendi sobre a linguagem SQL, como fazer consultas, 
 
 # Evidências
 
-# __[Desafio](Sprint%202/desafio/)__
+# __[Desafio](Sprint%202/Desafio/)__
