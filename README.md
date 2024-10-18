@@ -20,7 +20,7 @@
 
 ## Sprints
 
-__[Sprint 1](Sprint%201/)__
+__[Sprint 1](Sprint_1/)__
 
-__[Sprint 2](Sprint%202/)__
+__[Sprint 2](Sprint_2/)__
 
