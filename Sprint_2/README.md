@@ -11,8 +11,8 @@ No curso da AWS aprendi sobre a nuvem, técnicas de vendas e retóricas à obje�
 
 ### ![Correção idCombustivel](evidencias/correção_idcombustivel.png)
 
-
 ### ![Ajuste de Datas](evidencias/Ajuste_datas.png)
 
+### ![View Locações](evidencias/View.png)
 
 # __[Desafio](/desafio/)__
