@@ -15,4 +15,4 @@ No curso da AWS aprendi sobre a nuvem, técnicas de vendas e retóricas à obje�
 
 ### View Locações: aqui se exibe um arranjo de dados para comprovar a correta alocação e exibição dos dados. ![View Locações](evidencias/View.png)
 
-# __[Desafio](/desafio/)__
+# __[Desafio](/Sprint_2/desafio/)__
