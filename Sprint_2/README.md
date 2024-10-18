@@ -13,6 +13,6 @@ No curso da AWS aprendi sobre a nuvem, técnicas de vendas e retóricas à obje�
 
 ### Ajuste de Datas: durante a criação das views as datas apareceram no programa DBeaver em formatos incorretos, por exemplo a data 2015/01/10 foi exibida como 20.150.110, para a correta exibição das informações o comando explicitado foi-se feito necessário. ![Ajuste de Datas](evidencias/Ajuste_datas.png)
 
-### View Locações: aqui se exibe um arranjo de dados em View para comprovar a correta alocação e exibição dos dados. ![View Locações](evidencias/View.png)
+### View Locações: aqui se exibe um arranjo de dados para comprovar a correta alocação e exibição dos dados. ![View Locações](evidencias/View.png)
 
 # __[Desafio](/desafio/)__
