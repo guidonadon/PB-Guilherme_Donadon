@@ -8,4 +8,4 @@ No curso da AWS aprendi sobre a nuvem, técnicas de vendas e retóricas à obje�
 ### ![Ajuste de Datas](evidencias/Ajuste_datas.png)
 
 
-# __[Desafio](Sprint_2/desafio)__
+# __[Desafio](/desafio/)__
