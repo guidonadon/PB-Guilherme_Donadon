@@ -5,7 +5,7 @@ Aprendi também sobre a normalização de banco de dados para evitar que dados i
 No curso da AWS aprendi sobre a nuvem, técnicas de vendas e retóricas à objeções, além de aprender mais sobre os produtos ofertados pela mesma.
 
 # Evidências
-### ![Ajuste de Datas](Evidencias/Ajuste_datas.png)
+### ![Ajuste de Datas](evidencias/Ajuste_datas.png)
 
 
-# __[Desafio](Sprint%202/Desafio)__
+# __[Desafio](Sprint_2/Desafio)__
