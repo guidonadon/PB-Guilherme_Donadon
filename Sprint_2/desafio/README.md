@@ -26,4 +26,4 @@
 ### 6. Views
   ##### Após todos os processos citados acima uma View contendo alguns registros de locação dos veículos foi criada. Segue a imagem da View criada.
 
-  ![View Locações](evidencias/View.png)
+  ![View Locações](Sprint2/evidencias/View.png)
