@@ -1,2 +1,0 @@
-cat /home/guidonadon/relatorios/relatorio1.txt /home/guidonadon/relatorios/relatorio2.txt /home/guidonadon/relatorios/relatorio3.txt > /home/guidonadon/relatorios/relatorio_parcial.txt
-cat /home/guidonadon/relatorios/relatorio5.txt /home/guidonadon/relatorios/relatorio_parcial.txt
