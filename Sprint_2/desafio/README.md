@@ -24,6 +24,4 @@
   ##### A formatação dessas informações foi feita através do uso do comando UPDATE juntamente com SET e SUBSTRING assim como exibido na área de evidências.
 
 ### 6. Views
-  ##### Após todos os processos citados acima uma View contendo alguns registros de locação dos veículos foi criada. Segue a imagem da View criada.
-
-  ![View Locações](Sprint2/evidencias/View.png)
+  ##### Após todos os processos citados acima uma View contendo alguns registros de locação dos veículos foi criada. ![View Locações](evidencias/View.png)
