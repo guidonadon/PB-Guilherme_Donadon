@@ -1,0 +1,2 @@
+Receita média de bilheteria dos principais filmes, considerando todos os atores.
+ Média de receita de 50 filmes: 428.69000000000005
