@@ -1,11 +1,13 @@
 # Etapas
 ### 1. Organização das Tasks
-  ##### Após baixar o banco de dados, extrair o conteúdo e fazer a ligação com meu intepretador, que usei o "DBeaver" nesse momento, comecei a estruturar como eu resolveria o desafio.
+  ##### Após baixar o banco de dados, e fazer a ligação com meu intepretador, comecei a estruturar como eu resolveria o desafio.
   ##### Os arquivos de entrega do desafio foram alocados na pasta de mesmo nome conforme instruções.
 
-### 2. Criação das Tabelas
-  ##### O primeiro passo foi a verificação de todos os dados contidos no Banco de Dados original chamado "tb_locacao".
-  ##### Após identificar o que, posteriormente, se tornariam as chaves primárias estruturei as tabelas sendo dividas as colunas conforme relevancia às chaves primarias em questão, conforme exibidas na primeira imagem das evidências. A definição de qual tipo cada coluna seria também foi de importância, como por exemplo a definição das chaves primárias como INT.
+### 2. Importação de bibliotecas
+  ##### Primeiramente importei as bibliotecas que usaria no desafio, inicialmente foram apenas pandas e matplotlib porém ao final acabei importando mais ficando da seguinte maneira. 
+![Importação de biblioteca](/Sprint_3/Evidencias/importe_bibliotecas.png)
+  ##### Após, comecei a importar o arquivo CSV que seria usado no desafio já se atentando ao tratamento de linhas duplicadas conforme imagem: 
+![Remoção de linhas duplicadas](/Sprint_3/Evidencias/remocao_duplicados.png) 
   ##### Por fim, para finalizar o processo da criação das tabelas criei a tabela "locacao" e referenciei todas as chaves estrangeiras das tabelas que seriam ligadas a ela posteriormente. Na tabela "Carros" uma chave estrangeira para a tabela "Combustivel" também foi criada.
 
 ### 3. Inserção de Dados
