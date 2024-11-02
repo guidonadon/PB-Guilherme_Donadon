@@ -52,3 +52,8 @@
 
   ##### Etapa 6 - Aplicativos com mais Reviews
   ![Grafico Arrecadação apps](/Sprint_3/Evidencias/result_maiores_reviews.png) 
+
+### 7. Links Úteis
+  #### [Certificados](/Sprint_3/Certificados) 
+  #### [Evidencias](/Sprint_3/Evidencias)
+  #### [Exercícios](/Sprint_3/Exercicios)
