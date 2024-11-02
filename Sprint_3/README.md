@@ -8,6 +8,7 @@ Nesta sprint pude conseguir mais uma certificação da AWS na qual me confere ma
 ### Criação dos Códigos: No Python, diferente de algumas outras linguagens o uso de identação para definir a estrutura de execução do código é de suma importância e foi observado atentamente durante a escrita do mesmo. 
 ![Criação dos Códigos](Evidencias/cod_apps_mais_arrec.png)
 
-### Importar bibliotecas: O Python já vem com várias funções e ferramentas porém é bem comum fazer uso de bibliotecas de componentes em grande parte dos projetos desenvolvidos com essa linguagem, tais como o que usei que foram Pandas, Matplotlib e Seaborn. ![Importar bibliotecas](Evidencias/importe_bibliotecas.png)
+### Importar bibliotecas: O Python já vem com várias funções e ferramentas porém é bem comum fazer uso de bibliotecas de componentes em grande parte dos projetos desenvolvidos com essa linguagem, tais como o que usei que foram Pandas, Matplotlib e Seaborn. 
+![Importar bibliotecas](Evidencias/importe_bibliotecas.png)
 
 # __[Desafio](/Sprint_3/desafio/)__
