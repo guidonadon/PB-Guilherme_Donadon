@@ -11,4 +11,4 @@ Nesta sprint pude conseguir mais uma certificação da AWS na qual me confere ma
 ### Importar bibliotecas: O Python já vem com várias funções e ferramentas porém é bem comum fazer uso de bibliotecas de componentes em grande parte dos projetos desenvolvidos com essa linguagem, tais como o que usei que foram Pandas, Matplotlib e Seaborn. 
 ![Importar bibliotecas](Evidencias/importe_bibliotecas.png)
 
-# __[Desafio](/Sprint_3/desafio/)__
+# __[Desafio](/Sprint_3/Desafio/)__
