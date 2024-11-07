@@ -12,3 +12,5 @@ Nesta sprint pude conseguir mais uma certificação da AWS na qual me confere ma
 ![Importar bibliotecas](Evidencias/importe_bibliotecas.png)
 
 # __[Desafio](/Sprint_3/Desafio/)__
+
+# __[Certificados](/Sprint_3/Certificados/)__
