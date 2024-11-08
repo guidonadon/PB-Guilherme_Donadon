@@ -1,4 +1,4 @@
 FROM python:3.11
-WORKDIR C:\Users\guilh\OneDrive\Documentos\Compass\Sprint 4\Desafio
+WORKDIR Sprint_4/Desafio/Etapa1
 COPY . .
 CMD ["python", "carguru.py"]
