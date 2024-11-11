@@ -1,26 +1,27 @@
 # Etapas
 ### 1. CSV Carguru
   ##### Primeiramente movi para a pasta do desafio o arquivo carguru.py que seria usado no mesmo, e então ao primeiro teste para observar quais seriam os resultados obtive:
-![Teste Carguru](../Evidencias/Teste_carguru.py)
-  ##### Após, comecei a importar o arquivo CSV que seria usado no desafio já se atentando ao tratamento de linhas duplicadas conforme imagem: 
-![Remoção de linhas duplicadas](../Evidencias/remocao_duplicados.png) 
+![Teste Carguru](../Evidencias/Teste_carguru.png)
+  ##### Após constatar os resultados trabalhei em meu arquivo Dockerfile determinando que seriam executados python e o arquivo carguru.py: 
+![Dockerfile Etapa 1](../Evidencias/etapa1_dockerfile.png) 
+  ##### Todas as execuções tais como, criação do container e leitura e execução do código foram feitos e foi retornado os resultados a seguir, constando também as informações do container: 
+![Dockerfile Etapa 1](../Evidencias/criacao_container_carguru.png) 
 
-### 2. Importação de bibliotecas
-  ##### Primeiramente importei as bibliotecas que usaria no desafio, inicialmente foram apenas pandas e matplotlib porém ao final acabei importando mais ficando da seguinte maneira. 
-![Importação de biblioteca](../Evidencias/importe_bibliotecas.png)
-  ##### Após, comecei a importar o arquivo CSV que seria usado no desafio já se atentando ao tratamento de linhas duplicadas conforme imagem: 
-![Remoção de linhas duplicadas](../Evidencias/remocao_duplicados.png) 
+### 2. É possível reutilizar um container?
+  ##### Sim! Para responder a essa pergunta o comando `Docker start -i {nome do container}` foi utilizado tal como demonstrado na imagem:
+![Reativação de Container](../Evidencias/reativacao_container.png)
 
-### 3. Criação dos cálculos
-  ##### O processo de criação se divergiu em alguns pontos a depender do que se era proposto em cada Etapa do desafio:
-  ###### Etapa 4 - Ao desenvolver o cálculo que retornaria o app mais caro do DataSet primeiro fiz um tratamento para retirar caracteres monetários e espaços em branco logo converti para tipo float e então busquei na coluna o valor mais alto, tendo retornado o resultado: 
-![App Mais Caro](../Evidencias/cod_app_mais_caro.png) 
-  ###### Etapa 5 - O processo na etapa cinco foi mais simples que o anterior, ao criar uma variável "classificação_app" e filtrar aos que eram iguais ao termo "Mature 17+" o resultado retorno porém com valor acima do esperado, então fiz um filtro para remover entradas duplicadas mas dessa vez filtrando pela coluna "App" que erá onde se encontravam os nomes do app garantindo assim que o código retornaria exatamente uma entrada para cada aplicativo, mesmo que fossem de versões de updates diferentes. 
-![App Mature 17+](../Evidencias/cod_app_mature.png) 
-  ###### Etapa 6 - Durante o cálculo dos apps com mais Reviews foi necessário o uso da biblioteca Pandas, assim transformei tudo para valores númericos, fiz um leve tratamento de erros e retirei novamente os apps duplicados e defini como 10 o número de entradas a serem listadas.
-![Apps com Mais Reviews](../Evidencias/cod_app_mais_reviews.png) 
+### 3. Criação do container com Hash
+  ##### O primeiro passo foi a criação do código python que utilizaria a biblioteca Hashlib para com um input, neste caso optei por nomes, gerar um output com o código hash da informação inserida:
+![Código Python](../Evidencias/hash_py.png) 
+  ##### Assim como anteriormente um arquivo dockerfile foi criado e as configurações foram quase as mesmas da etapa 1 exceto pela mudança do nome do arquivo .py a ser executado: 
+![Arquivo Dockerfile](../Evidencias/etapa3_dockerfile.png) 
+  ##### O container foi criado utilizando o argumento *-t* para renomear o container e durante a execução o argumento *-it* foi usado para que o container fosse executado em modo interativo com um terminal para que comandos possam ser executados em tempo real.
+![Container Hash](../Evidencias/criacao_container_img_hash.png) 
+  ##### Após a correta execução dos comandos e script .py observei o resultado:
+![Resultado nomes com hash](../Evidencias/resultado_hash.png) 
 
 ### 7. Links Úteis
-  #### [Certificados](/Sprint_3/Certificados) 
-  #### [Evidencias](/Sprint_3/Evidencias)
-  #### [Exercícios](/Sprint_3/Exercicios)
+  #### [Certificados](/Sprint_4/Certificados) 
+  #### [Evidencias](/Sprint_4/Evidencias)
+  #### [Exercícios](/Sprint_4/Exercicios)
