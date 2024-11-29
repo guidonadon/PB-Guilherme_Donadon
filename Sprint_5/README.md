@@ -9,6 +9,9 @@ A Sprint 5 foi meu primeiro contato real com a AWS onde pude colocar em prática
 ### Políticas: Para garantir o acesso aos dados é necessário se atentar às políticas dos buckets evitanto que problemas ao se conectar aos dados ocorram. 
 ![Políticas](Evidencias/Bucket_online.png)
 
+### Download: Como conclusão é possível até mesmo fazer o download de arquivos diretamente de um link do seu S3 
+![Download de arquivos](Evidencias/download_arquivo.png)
+
 # __[Desafio](/Sprint_5/Desafio/)__
 
 # __[Certificados](/Sprint_5/Certificados/)__
