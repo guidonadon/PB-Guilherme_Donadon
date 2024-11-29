@@ -4,13 +4,10 @@ A Sprint 5 foi meu primeiro contato real com a AWS onde pude colocar em prática
 
 # Evidências
 ### Criação de Buckets: Ao se criar um novo bucket no serviço S3 é importante se atentar ao nome, que precisa ser único no ambiente da AWS.
-![Criação de Containers](Evidencias/criacao_container_img_hash.png)
+![Criação de Buckets](Evidencias/Bucket_configs.png)
 
-### Criação de Dockerfiles: Apesar de ser possível utilizar o docker diretamente pelo programa, ainda se é amplamento utilizado por terminal e uma parte fundamental em qualquer um dos casos é estruturar bem o que o container fará, tal como executar o python como o exemplificado. 
-![Criação de Arquivo](Evidencias/etapa3_dockerfile.png)
-
-### Importar bibliotecas: O Python pode ser executado sem qualquer problema em containers docker, inclusive importando bibliotecas como no exemplo. 
-![Importar bibliotecas](Evidencias/hash_py.png)
+### Políticas: Para garantir o acesso aos dados é necessário se atentar às políticas dos buckets evitanto que problemas ao se conectar aos dados ocorram. 
+![Políticas](Evidencias/Bucket_online.png)
 
 # __[Desafio](/Sprint_5/Desafio/)__
 
