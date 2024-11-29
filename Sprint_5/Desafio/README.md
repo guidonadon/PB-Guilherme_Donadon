@@ -1,14 +1,17 @@
 # Etapas
-### 1. CSV Carguru
-  ##### Primeiramente movi para a pasta do desafio o arquivo carguru.py que seria usado no mesmo, e então ao primeiro teste para observar quais seriam os resultados obtive:
-![Teste Carguru](../Evidencias/Teste_carguru.png)
-  ##### Após constatar os resultados trabalhei em meu arquivo Dockerfile determinando que seriam executados python e o arquivo carguru.py: 
-![Dockerfile Etapa 1](../Evidencias/etapa1_dockerfile.png) 
-  ##### Todas as execuções tais como, criação do container e leitura e execução do código foram feitos e foi retornado os resultados a seguir, constando também as informações do container: 
-![Dockerfile Etapa 1](../Evidencias/criacao_container_carguru.png) 
+### 1. Junção de CSVs
+  ##### Ao analisar o conjunto de dados escolhido percebi a necessidade de usar todos para uma maior oferta de dados temporais já que cada arquivo representava um mês iniciando em Janeiro de 2021 e indo até Outubro de 2024, o arquivo resultante recebey o nome de fluxo_migratorio.CSV:
+![Amostra de Arquivos](../Evidencias/amostra_total_arquivos.png)
+  ##### O código usado para tal é demonstrado abaixo já com a função de, além de juntar os arquivos em um só, já fazer o upload para o Bucket, o criando caso ainda não existisse, conforme solicitado no desafio: 
+![Código Criação CSV-Parte 1](../Evidencias/criar_arquivo_csv.png) 
+![Código Criação CSV-Parte 2](../Evidencias/criar_arquivo_csv_2.png) 
+  ##### Após a execução do código a resposta obtida foi a seguinte: 
+![Criação de Bucket e Upload de Arquivo](../Evidencias/upload_arquivo_local_para_o_bucket.png) 
+  ##### A seguir o resultado final após o upload do arquivo: 
+![Bucket com arquivo](../Evidencias/criar_bucket_desafio.png) 
 
-### 2. É possível reutilizar um container?
-  ##### Sim! Para responder a essa pergunta o comando `Docker start -i {nome do container}` foi utilizado tal como demonstrado na imagem:
+### 2. Download de Arquivos e Manipulação
+  ##### Após concluir a etapa anterior o próximo passo era criar um novo código que manipulasse:
 ![Reativação de Container](../Evidencias/reativacao_container.png)
 
 ### 3. Criação do container com Hash
