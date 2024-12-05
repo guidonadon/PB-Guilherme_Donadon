@@ -12,6 +12,6 @@ A Sprint 5 foi meu primeiro contato real com a AWS onde pude colocar em prática
 ### Download: Como conclusão é possível até mesmo fazer o download de arquivos diretamente de um link do seu S3 
 ![Download de arquivos](Evidencias/download_arquivo.png)
 
-# __[Desafio](/Sprint_5/Desafio/)__
+# __[Desafio](/Sprint_6/Desafio/)__
 
-# __[Certificados](/Sprint_5/Certificados/)__
+# __[Certificados](/Sprint_6/Certificados/)__
