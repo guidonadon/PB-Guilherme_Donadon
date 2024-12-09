@@ -1,16 +1,16 @@
 # Resumo
 
-A Sprint 5 foi meu primeiro contato real com a AWS onde pude colocar em prática tudo o que aprendi até então. Houveram novos conceitos que foram adicionados através dos cursos propostos e os que ativamente fui em busca durante o desenvolvimento do desafio, o que se provou bastante prazeroso ao final durante a conclusão do mesmo. Fiz uso dos buckets na ferramenta S3 tanto para armazenar objetos quanto em um exercício trabalhando com sites estáticos inclusive com opção para download de arquivos!
+Durante a Sprint 6 tive um maior contato com ferramentas da AWS com AWS Lambda e AWS Athena no qual aprendi como criar camadas e entendi sobre como organizar meus arquivos para fazer uma query. Além disso, anteriormente utilizei um código Python para fazer upload de arquivos para o serviço S3, agora o upload foi feito diretamente de um container Docker o que expande ainda mais meus conceitos sobre como utilizar os serviços oferecidos.
 
 # Evidências
-### Criação de Buckets: Ao se criar um novo bucket no serviço S3 é importante se atentar ao nome, que precisa ser único no ambiente da AWS.
-![Criação de Buckets](Evidencias/Bucket_configs.png)
+### É possível fazer o upload de arquivos para o S3 utilizando códigos python e Docker..
+![Envio Docker para AWS](Evidencias/envio_docker.png)
 
-### Políticas: Para garantir o acesso aos dados é necessário se atentar às políticas dos buckets evitanto que problemas ao se conectar aos dados ocorram. 
-![Políticas](Evidencias/Bucket_online.png)
+### AWS Lambda: Bibliotecas como Pandas podem ser adicionadas ao fazer o upload a uma das camadas da AWS Lambda.
+![Upload Pandas](Evidencias/upload_pandas.png)
 
-### Download: Como conclusão é possível até mesmo fazer o download de arquivos diretamente de um link do seu S3 
-![Download de arquivos](Evidencias/download_arquivo.png)
+### AWS Athena: Caso já possua um arquivo CSV em seu bucket S3, é possível utilizá-lo para queries no AWS Athena. 
+![Importação de arquivos](Evidencias/importacao_de_dados_nomes.png)
 
 # __[Desafio](/Sprint_6/Desafio/)__
 
