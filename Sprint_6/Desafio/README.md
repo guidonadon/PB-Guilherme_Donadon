@@ -1,36 +1,27 @@
 # Etapas
-### 1. Junção de CSVs
-  ##### Ao analisar o conjunto de dados escolhido percebi a necessidade de usar todos para uma maior oferta de dados temporais já que cada arquivo representava um mês iniciando em Janeiro de 2021 e indo até Outubro de 2024, o arquivo resultante recebey o nome de fluxo_migratorio.CSV:
-![Amostra de Arquivos](../Evidencias/amostra_total_arquivos.png)
-  ##### O código usado para tal é demonstrado abaixo já com a função de, além de juntar os arquivos em um só, já fazer o upload para o Bucket, o criando caso ainda não existisse, conforme solicitado no desafio: 
-![Código Criação CSV-Parte 1](../Evidencias/criar_arquivo_csv.png) 
-![Código Criação CSV-Parte 2](../Evidencias/criar_arquivo_csv_2.png) 
-  ##### Após a execução do código a resposta obtida foi a seguinte: 
-![Criação de Bucket e Upload de Arquivo](../Evidencias/upload_arquivo_local_para_o_bucket.png) 
-  ##### A seguir o resultado final após o upload do arquivo: 
-![Bucket com arquivo](../Evidencias/criar_bucket_desafio.png) 
+### 1. Definir perguntas a serem respondidas pela análise dos arquivos Movies.CSV e Series.CSV.
+  ##### 1 - Análise de Sucesso de Filmes e Séries de Ação/Aventura com Foco nos Artistas Populares: Filmes e Séries com Artistas populares alcançam uma maior audiência e são melhor avaliados? Como a participação desses artistas afetam o desempenho do produto?
+  ##### 2 - Filtrar por Ano e Análise de Tendências: Acompanhar a evolução de avaliações dos gêneros "Ação" e "Aventura" no decorrer dos anos. Houveram tempos em que um gênero foi mais popular que o outro? Isso se inverteu ou sempre caminharam juntos?
+  ##### 3 - Análise de Preferência de Formato por Gênero: Algum desses dois gêneros tem um formato preferido? por exemplo, filme de "Ação" fazem mais sucesso que os de aventura? Isso se repete quando mudamos para o formato de séries ou o publico no geral tem um gosto diferente para cada formato de produção?
+  ##### 4 - Conclusão sobre Preferências: Se compararmos tudo em um top 50 produções mais populares e de sucesso, filmes e séries dividem as colocações ou algum dos dois são favoritos em escolha do publico?
 
-### 2. Download de Arquivos e Manipulação
-  ##### Após concluir a etapa anterior o próximo passo era criar um novo código que manipulasse o arquivo que foi feito upload anteriormente para gerar novos arquivos CSV que satisfizessem algumas condições de uso de funções específicas.
-  ##### No início importei as bibliotecas que faria uso, defini a função da biblioteca boto3 que faria primeiramente o download do arquivo localizado no bucket, em seguida ler o arquivo e por fim aproveitei a função anteriormente usada para criar um novo bucket, que neste caso iria apenas o referenciar já que ele já havia sido criado em outro momento, a seguir o trecho de código citado:
-![Script para Manipulação Python 1](../Evidencias/script_manipulacao.png)
-  ##### Após concluir essa parte avancei para a criação da parte seguinte do código em que defini alguns códigos de países para otimizar a busca pelos paises, então evoquei a biblioteca pycountry que seria útil futuramente assim como a definição dos códigos de país. Na próxima seção para ter certeza que a coluna nacionalidade seria padrozinada em letras maiusculas. Um dos motivos de se juntar os arquivos CSV em apenas um era que eles possuiam como nome a data e mês que faziam referência, mas não traziam nos dados essa informação, após resolver esse problema pude aqui transformar a informação de ano em tipo int e depois filtrar informaçãos pelo ano entre 2021 e 2024. Agrupei as UF de atendimento e usei a função de soma para registrar a quantidade de atendimento por unidades. A amostra desses dados foi definida para ser exibida as 10 primeiras entradas dos maiores números de atendimento, logo após segui para a segunda proposta, saindo da análise a nível nacional e chegando ao nível internacional.
-![Script para Manipulação Python 2](../Evidencias/script_manipulacao_2.png)
-  ##### A análise internacional foi feita com uma função igual a de estados porém dessa vez foram agrupados por nacionalidade excluindo o Brasil e novamente somei os resultados. Para ficar visualmente mais agradável o index foi ajustado. Um problema enfrentado foi que para minha próxima manipulação era necessário que os países fossem exibidos em Inglês, porém estavam em Portugês, então usei a biblioteca translator juntamente com uma função específica para transformar os nomes da coluna nacionalidade da lingua portuguesa para a inglesa. Especifiquei as coordenadas de todos os estados brasileiros que seriam usados na análise criei uma função para que a latitude e longitude dos 10 estados com mais atendimentos e então gerar um mapa do Brasil com as informações visuais do que será também exbido nos dados do CSV a ser gerado, as configurações de personalização focam o mapa no Brasil e definem outras opções como cor, escala dos marcadores, tamanho de textos, titulos entre outros.
-![Script para Manipulação Python 3](../Evidencias/script_manipulacao_3.png)
-  ##### Finalizado o mapa dos estados brasileiros, segui o mesmo processo para a criação de um mapa mundi com as informações dos 30 países com maiores fluxos migratórios em relação ao Brasil. Para a criação de ambos os mapas foi necessário o download de alguns arquivos que foram evidenciados com os caminhos referentes a cada um.
-![Script para Manipulação Python 4](../Evidencias/script_manipulacao_4.png)
-  ##### Dada a criação de ambos os mapas as informações que foram filtradas e utilizadas para eles foram utilizadas para criar dois arquivos CSV com os respetivos dados em formato de linhas e colunas, além das informações já nos arquivos CSV terem sido automaticamente arquivadas no serviço S3 da AWS, conforme solicitado.
-![Script para Manipulação Python 5](../Evidencias/script_manipulacao_5.png)
-  ##### Após a conclusão do script após a execução recebi mensagens de sucesso na exportação para a nuvem e que o bucket ja existia, não havendo necessidade de criar outro.
-![Conclusão Script Python](../Evidencias/desafio_pt2.png)
+### 2. Criação do Arquivo Dockerfile
+  ##### O desafio foi iniciado com o download do banco de dados que incluiam dois arquivos CSV, Movies e Series, após o download e descompactação era necessário efetuar o upload deles para um bucket e pasta no serviço S3 da AWS, para tal, um arquivo dockerfile foi desenvolvido.
+![Script Dockerfile](../Evidencias/cod_docker.png)
+  ##### Antes da execução foi necessário a criação do arquivo .py para as orientações ao sistema sobre como fazer o upload dos arquivos.
 
+### 3. Criação do Código Python
+  ##### Para o correto funcionamento do código as bibliocates os, boto3, botocore.exceptions e datetime foram necessárias. Após importar todas utilizei a mesma função que criei na sprint 5 denominada create_bucket_if_not_existis e upload_file_to_s3, sendo a primeira para criar o bucket necessário caso ele não existisse e a segunda para fazer o upload do arquivo. Ao fazer o upload do arquivo era necessário o acréscimo da data atual no caminho das pastas, fiz uso da biblioteca datetime durante esse processo para que a data no formato ano, mes e dia fossem acrescentada. Utilizando a biblioteca os fiz com que os arquivos movies.CSV e series.CSV fossem buscados em meu computador pelo nome e em seguida defini o caminho ao qual seriam adicionados incluindo a função datetime desenvolvida anteriormente. Defini o nome do bucket e evoquei a função create_bucket_if_not_exists e para finalizar uma função que utilizaria do nome do arquivo que foi buscado anteriormente e da função upload_file_to_s3 para finalizar o processo.
+![Código Python](../Evidencias/cod_python.png)
+
+### 4. Execução do Container Docker
+  ##### Após criados os dois códigos tanto do python quanto do docker pude executá-los. Primeiramente executei o comando Docker Build para criar a imagem e depois Docker run para rodar meu container, foi necessário algumas instruções extras para a execução do container. Criei volumes para a pasta desafio que é onde se localizavam meus arquivos CSV que seriam subidos para a nuvem e criei volumes paras os arquivos credentials e config também que são onde se encontram conteudo sensível da AWS como códigos de acesso e configurações do ambiente assim não sendo necessário o upload desses dados para o container.
+![Evio Docker](../Evidencias/envio_docker.png)
+  
 ### 3. Conclusão
-  ##### Ao final do processo o bucket se encontrou com 3 arquivos CSV, um sendo o banco de dados baixado no início da atividade e dois como resultado das manipulações propostas
-![Bucket Final](../Evidencias/bucket_final.png) 
-  ##### Além disso dois mapas também foram criados para ilustrar as informações contidas em ambos os CSVs
-![Mapa Brasil](../Evidencias/mapa_extra_brasil.png) 
-![Mapa Mundo](../Evidencias/mapa_extra_mundo.png) 
+  ##### Ao final do processo podemos contatar o antes e depois do AWS S3 confirmando a criação do novo bucket e upload dos arquivos.
+![Bucket Antes](../Evidencias/buckets_antes.png) 
+![Bucket Depois](../Evidencias/buckets_depois.png) 
 
 ### 7. Links Úteis
   #### [Certificados](/Sprint_6/Certificados) 
