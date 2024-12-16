@@ -1,9 +1,9 @@
 # Etapas
 ### 1. Definir perguntas a serem respondidas pela análise dos arquivos Movies.CSV e Series.CSV.
-  ##### 1 - Análise de Sucesso de Filmes e Séries de Ação/Aventura com Foco nos Artistas Populares: Filmes e Séries com Artistas populares alcançam uma maior audiência e são melhor avaliados? Como a participação desses artistas afetam o desempenho do produto?
-  ##### 2 - Filtrar por Ano e Análise de Tendências: Acompanhar a evolução de avaliações dos gêneros "Ação" e "Aventura" no decorrer dos anos. Houveram tempos em que um gênero foi mais popular que o outro? Isso se inverteu ou sempre caminharam juntos?
-  ##### 3 - Análise de Preferência de Formato por Gênero: Algum desses dois gêneros tem um formato preferido? por exemplo, filme de "Ação" fazem mais sucesso que os de aventura? Isso se repete quando mudamos para o formato de séries ou o publico no geral tem um gosto diferente para cada formato de produção?
-  ##### 4 - Conclusão sobre Preferências: Se compararmos tudo em um top 50 produções mais populares e de sucesso, filmes e séries dividem as colocações ou algum dos dois são favoritos em escolha do publico?
+  ###### 1 - Análise de Sucesso de Filmes e Séries de Ação/Aventura com Foco nos Artistas Populares: Filmes e Séries com Artistas populares alcançam uma maior audiência e são melhor avaliados? Como a participação desses artistas afetam o desempenho do produto?
+  ###### 2 - Filtrar por Ano e Análise de Tendências: Acompanhar a evolução de avaliações dos gêneros "Ação" e "Aventura" no decorrer dos anos. Houveram tempos em que um gênero foi mais popular que o outro? Isso se inverteu ou sempre caminharam juntos?
+  ###### 3 - Análise de Preferência de Formato por Gênero: Algum desses dois gêneros tem um formato preferido? por exemplo, filme de "Ação" fazem mais sucesso que os de aventura? Isso se repete quando mudamos para o formato de séries ou o publico no geral tem um gosto diferente para cada formato de produção?
+  ###### 4 - Conclusão sobre Preferências: Se compararmos tudo em um top 50 produções mais populares e de sucesso, filmes e séries dividem as colocações ou algum dos dois são favoritos em escolha do publico?
 
 ### 2. Criação do Arquivo Dockerfile
   ##### O desafio foi iniciado com o download do banco de dados que incluiam dois arquivos CSV, Movies e Series, após o download e descompactação era necessário efetuar o upload deles para um bucket e pasta no serviço S3 da AWS, para tal, um arquivo dockerfile foi desenvolvido.
