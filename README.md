@@ -31,3 +31,5 @@ __[Sprint 4](Sprint_4/)__
 __[Sprint 5](Sprint_5/)__
 
 __[Sprint 6](Sprint_6/)__
+
+__[Sprint 7](Sprint_7/)__
