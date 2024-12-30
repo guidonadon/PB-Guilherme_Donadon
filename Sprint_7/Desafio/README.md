@@ -1,8 +1,8 @@
 # Etapas
 ### 1. Criação do código local
   ##### Para dar início ao desafio criei um código localmente que criava amostras de dados dos arquivos movies.csv e series.csv e então buscasse, com a API TMDB, dados complementares aos que eu tinha para tornar mais rica minha análise, e então, criasse arquivos JSON com esses dados.
-![Codigo Local parte 1](../Evidencias/cod_local.png)
-![Codigo Local parte 1](../Evidencias/cod_local_2.png)
+![Codigo Local parte 1](../Evidencias/codigo_local.png)
+![Codigo Local parte 1](../Evidencias/codigo_local_2.png)
   ##### Para ter certeza que os arquivos json possuiam 100 registros no máximo criei um segundo código para contar e ter a certeza da correta configuração
 ![Contagem dos Json](../Evidencias/contagem_json.png)
 ### 3. Configurações AWS
