@@ -19,20 +19,20 @@
 ![Organização Arquivos](../Evidencias/results_jobs.png)
 ### 4. Resultados do Job 1
   ##### O job foi executado e foi exibida a notificação do sucesso da execução
-![Resultado Job 1 Part 1](../Evidencias/results_job1_part1.png)
+![Resultado Job 1 Part 1](../Evidencias/exec_job1.png)
   ##### Foi observado a criação correta dos arquivos no bucket s3 para os arquivos do CSV chamado Movies.
-![Resultado Job 1 Part 2](../Evidencias/results_job1_part2.png)
+![Resultado Job 1 Part 2](../Evidencias/results_job1_part1.png)
   ##### O mesmo se repetiu para Series
-![Resultado Job 1 Part 3](../Evidencias/results_job1_part3.png)
+![Resultado Job 1 Part 3](../Evidencias/results_job1_part2.png)
 ### 5. Resultados do Job 2
   ##### Assim como no Job 1, no Job 2 a flag de sucesso foi exibida.
-![Resultado Job 2 Part 1](../Evidencias/results_job2_part1.png)
+![Resultado Job 2 Part 1](../Evidencias/exec_job2.png)
   ##### Nos Jsons referentes aos filmes também foram realizadas as gravações de arquivos.
-![Resultado Job 2 Part 2](../Evidencias/results_job2_part2.png)
+![Resultado Job 2 Part 2](../Evidencias/results_job2_part1.png)
   ##### E em Series também
-![Resultado Job 2 Part 3](../Evidencias/results_job2_part3.png)
+![Resultado Job 2 Part 3](../Evidencias/results_job2_part2.png)
 
-### 4. Links Úteis
+### 6. Links Úteis
   #### [Certificados](/Sprint_8/Certificados) 
   #### [Evidencias](/Sprint_8/Evidencias)
   #### [Exercícios](/Sprint_8/Exercicios)
