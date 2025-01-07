@@ -21,6 +21,6 @@
 ![Resultado da execução](../Evidencias/resultado_JSON.png)
 
 ### 4. Links Úteis
-  #### [Certificados](/Sprint_7/Certificados) 
-  #### [Evidencias](/Sprint_7/Evidencias)
-  #### [Exercícios](/Sprint_7/Exercicios)
+  #### [Certificados](/Sprint_8/Certificados) 
+  #### [Evidencias](/Sprint_8/Evidencias)
+  #### [Exercícios](/Sprint_8/Exercicios)
