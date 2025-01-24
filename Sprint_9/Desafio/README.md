@@ -1,39 +1,44 @@
 # Etapas
-### 1. Configuração Inicial
-  ##### As configurações iniciais foram definir a versão do Glue, as permissões do IAM, a linguagem a ser utilizada o Worker Type e o numero de Workers, além do tempo a ser reservado para a execução do job, como mostrado em alguns exemplos a seguir!
-![Tempo do job](../Evidencias/tempo_glue.png)
-![Permissões IAM](../Evidencias/rules_iam.png)
+### 1. Criação Modelo Muldimensional no DBeaver
+  ##### Ao iniciar o desafio senti que por se tratar de uma boa quantidade de dados seria necessário um apoio visual para seguir e organizar meus dados, então utilizando a ferramenta DBeaver com o banco de dados DuckDB para ler meus arquivos .parquet conseguir gerar uma visualização do modelo que gostaria de criar.
+![Modelo Multidimensional](../Evidencias/modelo_filmesseries.png)
 ### 2. Criação dos scripts
-  ##### Foram criados dois scripts diferentes, um para cada job, sendo o primeiro focado em trabalhar com os arquivos CSV. O script foi responsável por iniciar a sessão Park, localizar e ler os arquivos CSV mediante o caminho so s3 fornecido, definir o tipo de esquema e separador usado nos CSVs além de fazer um leve tratamento para valores nulos em ambos os arquivos. Após isso foram transformados em formato .parquet e salvos novamente no bucket porém dessa vez na camada Trusted.
-![Script Job 1 - Parte 1](../Evidencias/script_job1_part1.png)
-![Script Job 1 - Parte 1](../Evidencias/script_job1_part2.png)
-  ##### O segundo script tratou os arquivos em formato .json, inicialmente se fez o processe de iniciar a sessão Spark e então a definição do esquema foi um pouco mais detalhada por conter dados de diferentes formatos dentro do mesmo arquivo Json, logo depois os jsons foram lidos no caminho informado e um tratamento para preencher colunas com valores nulos ou criar esses campos e preenche-los com o tratamento correto também foi realizado, assim como anteriormente nos arquivos CSVs o arquivo foi convertido para formato .parquet e então salvo também no bucket s3 na camada Trusted
-![Script Job 2 - Parte 1](../Evidencias/script_job2_part1.png)
-![Script Job 2 - Parte 2](../Evidencias/script_job2_part2.png)
-![Script Job 2 - Parte 3](../Evidencias/script_job2_part3.png)
-![Script Job 2 - Parte 4](../Evidencias/script_job2_part4.png)
+  ##### Pronto o modelo e tendo a orientação de por onde iniciar comecei a criação dos scripts para meu Job no AWS Glue. Utilizei da mesma lógica do SQL para ir criando meus DataFrames com as colunas e valores que julguei ser pertinentes a cada um, mantendo uma estrutura compatível com o AWS Athena.
+![Script Job 1 - Parte 1](../Evidencias/job1_part1.png)
+![Script Job 1 - Parte 2](../Evidencias/job1_part2.png)
+![Script Job 1 - Parte 3](../Evidencias/job1_part3.png)
+![Script Job 1 - Parte 4](../Evidencias/job1_part4.png)
+![Script Job 1 - Parte 5](../Evidencias/job1_part5.png)
+![Script Job 1 - Parte 6](../Evidencias/job1_part6.png)
+  ##### Ao final da criação salvei novamente em meu Bucket AWS S3, porém dessa vez na camada Refined, para melhor organização, como mostrarei posteriormente, movi os arquivos para a pasta DataFrames.
+  ##### Ao verificar os dados vi a necessidade da criação de um segundo script para um novo Job pois duas de minhas tabelas não estavam corretas, então refiz apenas as duas padronizando assim para que ficassem organizadas seguindo o restante dos dados
+![Script Job 2 - Parte 1](../Evidencias/job2_part1.png)
+![Script Job 2 - Parte 2](../Evidencias/job2_part2.png)
 ### 3. Resultados dos Buckets
-  ##### Como resultado da execução dos scripts acima a camada Trusted foi criada conforme imagem a seguir
-![Criação Camada Trusted](../Evidencias/trusted_folder.png)
-  ##### Após a criação da camada Trusted os arquivos foram organizados da maneira que se segue:
-![Organização Arquivos](../Evidencias/results_jobs.png)
-### 4. Resultados do Job 1
-  ##### O job foi executado e foi exibida a notificação do sucesso da execução
-![Resultado Job 1 Part 1](../Evidencias/exec_job1.png)
-  ##### Foi observado a criação correta dos arquivos no bucket s3 para os arquivos do CSV chamado Movies.
-![Resultado Job 1 Part 2](../Evidencias/results_job1_part1.png)
-  ##### O mesmo se repetiu para Series
-![Resultado Job 1 Part 3](../Evidencias/results_job1_part2.png)
-### 5. Resultados do Job 2
-  ##### Assim como no Job 1, no Job 2 a flag de sucesso foi exibida.
-![Resultado Job 2 Part 1](../Evidencias/exec_job2.png)
-  ##### Nos Jsons referentes aos filmes também foram realizadas as gravações de arquivos.
-![Resultado Job 2 Part 2](../Evidencias/results_job2_part1.png)
-  ##### E em Series também
-![Resultado Job 2 Part 3](../Evidencias/results_job2_part2.png)
+  ##### O resultado foi a criação dos arquivos agora na camada Refined com os dados prontos para serem já consumidos pelo AWS QuickSight, aqui primeiramente vejos a execução com sucesso do Job 1
+![Execução Primeiro Job](../Evidencias/job1_exec.png)
+  ##### E então, o segundo Job
+![Execução Segundo Job](../Evidencias/job2_exec.png)
+### 4. Criação de Tabelas no Glue Catalog
+  ##### Logo após a execução dos Jobs e a confirmação de seu sucesso no Bucket criei o Crawler que seria responsável pela correta criação das tabelas.
+![Criação e Execução Crawler](../Evidencias/crawler_criado.png)
+  ##### Após executado o Crawler vemos o resultado
+![Resultado Tabelas Criadas](../Evidencias/tabelas_glue_catalog.png)
+  ##### Rodei uma Query no AWS Athena para ter certeza da correta execução do Crawler, Criação das Tabelas e Padronização dos dados.
+  ##### A Query foi
+![Query Athena](../Evidencias/exemplo_query_athena.png)
+  ##### E obtive o resultado:
+![Resultado Athena](../Evidencias/athena_results.png)
+### 5. Organização dos Buckets
+  ##### Após a execução dos Jobs conferi em meu bucket os arquivos criados e como resultado tive outros como o seguinte exemplo
+![Resultado Execução Jobs](../Evidencias/exemplo_execucao_sucesso.png)
+  ##### Os dados foram organizados dentro do bucket para melhor visualização da seguinte forma:
+![Organização Bucket](../Evidencias/estrutura_bucket.png)
+  ##### E Por fim baixei um dos arquivos para ter certeza da estrutura também em outros ambientes além da AWS e executei uma query e a estruturação e consistência dos dados se mantiveram
+![Exemplo Amostra Resultados](../Evidencias/exemplo_estruturacao_dados.png)
 
 ### 6. Links Úteis
-  #### [Certificados](/Sprint_8/Certificados) 
-  #### [Evidencias](/Sprint_8/Evidencias)
-  #### [Exercícios](/Sprint_8/Exercicios)
+  #### [Certificados](/Sprint_9/Certificados) 
+  #### [Evidencias](/Sprint_9/Evidencias)
+  #### [Exercícios](/Sprint_9/Exercicios)
 
