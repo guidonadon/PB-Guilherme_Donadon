@@ -7,7 +7,9 @@ Na Sprint 9 o foco foi em seguir trabalhando com os arquivos que já tínhamos, 
 ![Modelo Multidimensional](Evidencias/modelo_filmesseries.png)
 
 ### Ao se preparar para trabalhar com a visualização de dados, uma parte importante é se atentar a criação das tabelas no Glue Catalog.
+#### Crawler
 ![Crawler](Evidencias/crawler_criado.png)
+#### Tabelas no Glue Catalog
 ![Tabelas Glue Catalog](Evidencias/tabelas_glue_catalog.png)
 
 # __[Desafio](/Sprint_9/Desafio/)__
