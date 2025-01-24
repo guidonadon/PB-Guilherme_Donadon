@@ -1,14 +1,15 @@
 # Resumo
 
-Ao decorrer da Sprint 8 pudemos aprimorar as habilidades no uso da ferramenta AWS Glue no qual a utilizamos para transformar e copiar dados de maneira rápida, segura e otimizada já adequando aos padrões necessários para serem inseridos à camada de dados confiaveis em nosso DataLake.
+Na Sprint 9 o foco foi em seguir trabalhando com os arquivos que já tínhamos, dessa vez, porém, tratando, limpando e moldando a fim de se adequar à necessidade de uso no AWS QuickSight. Tivemos um maior contato com o AWS Glue e pudemos desenvolver nosso código Spark para criarmos nosso modelo multidimensional e as tabelas no Glue Catalog, tudo para a preparação para a exibição e visualização de nossos dados e a possibilidade de responder as perguntas que apresentamos na sprint 6.
 
 # Evidências
-### Quando usando o AWS Glue, uma confiuração de grande importância é o tempo de execução de seu Job para assim garantir que não será encerrado antecipadamente durante a execução de seu script
-![Configuração de tempo AWS Glue](Evidencias/tempo_glue.png)
+### Ao trabalhar com uma volume de dados mais robusto, uma visualização pode nos ajudar e nos direcionar e entender o que fizemos de certo e o que precisamos melhorar.
+![Modelo Multidimensional](Evidencias/modelo_filmesseries.png)
 
-### Além do mencionado anteriormente, a correta configurações de rules no AWS IAM garante que você terá todas as permissões necessárias para executar seu Job sem nenhum imprevisto.
-![Permissões AWS Glue](Evidencias/rules_iam.png)
+### Ao se preparar para trabalhar com a visualização de dados, uma parte importante é se atentar a criação das tabelas no Glue Catalog.
+![Crawler](Evidencias/crawler_criado.png)
+![Tabelas Glue Catalog](Evidencias/tabelas_glue_catalog.png)
 
-# __[Desafio](/Sprint_8/Desafio/)__
+# __[Desafio](/Sprint_9/Desafio/)__
 
-# __[Certificados](/Sprint_8/Certificados/)__
+# __[Certificados](/Sprint_9/Certificados/)__
