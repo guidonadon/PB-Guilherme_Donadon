@@ -14,7 +14,7 @@
   ##### Ao verificar os dados vi a necessidade da criação de um segundo script para um novo Job pois duas de minhas tabelas não estavam corretas, então refiz apenas as duas padronizando assim para que ficassem organizadas seguindo o restante dos dados
 ![Script Job 2 - Parte 1](../Evidencias/job2_part1.png)
 ![Script Job 2 - Parte 2](../Evidencias/job2_part2.png)
-### 3. Resultados dos Buckets
+### 3. Execução dos Jobs
   ##### O resultado foi a criação dos arquivos agora na camada Refined com os dados prontos para serem já consumidos pelo AWS QuickSight, aqui primeiramente vejos a execução com sucesso do Job 1
 ![Execução Primeiro Job](../Evidencias/job1_exec.png)
   ##### E então, o segundo Job
