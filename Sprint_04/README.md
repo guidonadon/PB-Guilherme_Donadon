@@ -12,6 +12,6 @@ Durante a Sprint uma nova certificação da AWS foi adquirida além de mais conh
 ### Importar bibliotecas: O Python pode ser executado sem qualquer problema em containers docker, inclusive importando bibliotecas como no exemplo. 
 ![Importar bibliotecas](Evidencias/hash_py.png)
 
-# __[Desafio](/Sprint_4/Desafio/)__
+# __[Desafio](/Sprint_04/Desafio/)__
 
-# __[Certificados](/Sprint_4/Certificados/)__
+# __[Certificados](/Sprint_04/Certificados/)__
