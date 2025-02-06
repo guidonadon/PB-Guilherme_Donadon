@@ -33,6 +33,6 @@
 ![Resultado Job 2 Part 3](../Evidencias/results_job2_part2.png)
 
 ### 6. Links Úteis
-  #### [Certificados](/Sprint_8/Certificados) 
-  #### [Evidencias](/Sprint_8/Evidencias)
-  #### [Exercícios](/Sprint_8/Exercicios)
+  #### [Certificados](/Sprint_08/Certificados) 
+  #### [Evidencias](/Sprint_08/Evidencias)
+  #### [Exercícios](/Sprint_08/Exercicios)
