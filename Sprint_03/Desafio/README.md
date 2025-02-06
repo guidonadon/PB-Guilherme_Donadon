@@ -54,6 +54,6 @@
   ![Grafico Arrecadação apps](../Evidencias/result_maiores_reviews.png) 
 
 ### 7. Links Úteis
-  #### [Certificados](/Sprint_3/Certificados) 
-  #### [Evidencias](/Sprint_3/Evidencias)
-  #### [Exercícios](/Sprint_3/Exercicios)
+  #### [Certificados](/Sprint_03/Certificados) 
+  #### [Evidencias](/Sprint_03/Evidencias)
+  #### [Exercícios](/Sprint_03/Exercicios)
