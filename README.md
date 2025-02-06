@@ -20,20 +20,22 @@
 
 ## Sprints
 
-__[Sprint 1](Sprint_1/)__
+__[Sprint 01](Sprint_01/)__
 
-__[Sprint 2](Sprint_2/)__
+__[Sprint 02](Sprint_02/)__
 
-__[Sprint 3](Sprint_3/)__
+__[Sprint 03](Sprint_03/)__
 
-__[Sprint 4](Sprint_4/)__
+__[Sprint 04](Sprint_04/)__
 
-__[Sprint 5](Sprint_5/)__
+__[Sprint 05](Sprint_05/)__
 
-__[Sprint 6](Sprint_6/)__
+__[Sprint 06](Sprint_06/)__
 
-__[Sprint 7](Sprint_7/)__
+__[Sprint 07](Sprint_07/)__
 
-__[Sprint 8](Sprint_8/)__
+__[Sprint 08](Sprint_08/)__
 
-__[Sprint 9](Sprint_9/)__
+__[Sprint 09](Sprint_09/)__
+
+__[Sprint 10](Sprint_10/)__
