@@ -24,7 +24,7 @@
 ![Bucket Depois](../Evidencias/buckets_depois.png) 
 
 ### 7. Links Úteis
-  #### [Certificados](/Sprint_6/Certificados) 
-  #### [Evidencias](/Sprint_6/Evidencias)
-  #### [Exercícios](/Sprint_6/Exercicios)
+  #### [Certificados](/Sprint_06/Certificados) 
+  #### [Evidencias](/Sprint_06/Evidencias)
+  #### [Exercícios](/Sprint_06/Exercicios)
 
