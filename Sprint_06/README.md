@@ -12,6 +12,6 @@ Durante a Sprint 6 tive um maior contato com ferramentas da AWS com AWS Lambda e
 ### AWS Athena: Caso já possua um arquivo CSV em seu bucket S3, é possível utilizá-lo para queries no AWS Athena. 
 ![Importação de arquivos](Evidencias/importacao_de_dados_nomes.png)
 
-# __[Desafio](/Sprint_6/Desafio/)__
+# __[Desafio](/Sprint_06/Desafio/)__
 
-# __[Certificados](/Sprint_6/Certificados/)__
+# __[Certificados](/Sprint_06/Certificados/)__
