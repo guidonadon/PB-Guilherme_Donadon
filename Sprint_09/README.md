@@ -12,6 +12,6 @@ Na Sprint 9 o foco foi em seguir trabalhando com os arquivos que já tínhamos, 
 #### Tabelas no Glue Catalog
 ![Tabelas Glue Catalog](Evidencias/tabelas_glue_catalog.png)
 
-# __[Desafio](/Sprint_9/Desafio/)__
+# __[Desafio](/Sprint_09/Desafio/)__
 
-# __[Certificados](/Sprint_9/Certificados/)__
+# __[Certificados](/Sprint_09/Certificados/)__
