@@ -38,7 +38,7 @@
 ![Exemplo Amostra Resultados](../Evidencias/exemplo_estruturacao_dados.png)
 
 ### 6. Links Úteis
-  #### [Certificados](/Sprint_9/Certificados) 
-  #### [Evidencias](/Sprint_9/Evidencias)
-  #### [Exercícios](/Sprint_9/Exercicios)
+  #### [Certificados](/Sprint_09/Certificados) 
+  #### [Evidencias](/Sprint_09/Evidencias)
+  #### [Exercícios](/Sprint_09/Exercicios)
 
