@@ -9,6 +9,6 @@ Ao decorrer da Sprint 8 pudemos aprimorar as habilidades no uso da ferramenta AW
 ### Além do mencionado anteriormente, a correta configurações de rules no AWS IAM garante que você terá todas as permissões necessárias para executar seu Job sem nenhum imprevisto.
 ![Permissões AWS Glue](Evidencias/rules_iam.png)
 
-# __[Desafio](/Sprint_8/Desafio/)__
+# __[Desafio](/Sprint_08/Desafio/)__
 
-# __[Certificados](/Sprint_8/Certificados/)__
+# __[Certificados](/Sprint_08/Certificados/)__
