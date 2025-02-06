@@ -9,6 +9,6 @@ A Sprint 7 foi o contato inicial que tivemos com algumas ferramentas e métodos.
 ### Assim como pode ser feito ao utilizar AWS Glue, nesse caso chamado de parâmetros, podem ser usados inclusive para indicar caminhos onde determinado arquivo se encontra ou onde deve ser gerado o arquivo resultante da atividade.
 ![Parametros AWS Glue](Evidencias/config_parametros.png)
 
-# __[Desafio](/Sprint_7/Desafio/)__
+# __[Desafio](/Sprint_07/Desafio/)__
 
-# __[Certificados](/Sprint_7/Certificados/)__
+# __[Certificados](/Sprint_07/Certificados/)__
