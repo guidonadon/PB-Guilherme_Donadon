@@ -33,6 +33,6 @@
 ![Mapa Mundo](../Evidencias/mapa_extra_mundo.png) 
 
 ### 7. Links Úteis
-  #### [Certificados](/Sprint_5/Certificados) 
-  #### [Evidencias](/Sprint_5/Evidencias)
-  #### [Exercícios](/Sprint_5/Exercicios)
+  #### [Certificados](/Sprint_05/Certificados) 
+  #### [Evidencias](/Sprint_05/Evidencias)
+  #### [Exercícios](/Sprint_05/Exercicios)
