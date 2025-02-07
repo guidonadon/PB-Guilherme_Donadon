@@ -1,6 +1,6 @@
 # Resumo
 
-Na Sprint 9 o foco foi em seguir trabalhando com os arquivos que já tínhamos, dessa vez, porém, tratando, limpando e moldando a fim de se adequar à necessidade de uso no AWS QuickSight. Tivemos um maior contato com o AWS Glue e pudemos desenvolver nosso código Spark para criarmos nosso modelo multidimensional e as tabelas no Glue Catalog, tudo para a preparação para a exibição e visualização de nossos dados e a possibilidade de responder as perguntas que apresentamos na sprint 6.
+Rumamos à última Sprint e o desafio iniciado durante a Sprint 6 também se finda, tendo aqui a finalização de todo o trabalho unimos desde a criação das perguntas que pensaríamos em responder, então passamos pela fase de ingestão de dados provindo tanto do arquivo CSV fornecido pela Compass quanto das requisições que fizemos ao TMDB com o trabalho feito através da API. Seguindo após isso foi
 
 # Evidências
 ### Ao trabalhar com uma volume de dados mais robusto, uma visualização pode nos ajudar e nos direcionar e entender o que fizemos de certo e o que precisamos melhorar.
