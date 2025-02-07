@@ -11,23 +11,21 @@
 ![Exibição de Análise Criada](../Evidencias/analise_criada.png)
 ### 3. Criação de Gráficos, Filtros e Ações
   ##### O primeiro passo para se iniciar a criação do Dashboard foi recapiular as perguntas feitas durante a Sprint 6 para garantir que todas seriam respondidas apropriadamente:
-  ###### 1 - Análise de Sucesso de Filmes e Séries de Ação/Aventura com Foco nos Artistas Populares: Filmes e Séries com Artistas populares alcançam uma maior audiência e são melhor avaliados? Como a participação desses artistas afetam o desempenho do produto?
+  ###### 1 - Análise de Sucesso de Filmes e Séries de Ação/Aventura: Filmes e Séries de Ação ou Aventura são mais lançados? O número de produções dos gêneros são semelhantes ou há prevalência de algum?
   ###### 2 - Filtrar por Ano e Análise de Tendências: Acompanhar a evolução de avaliações dos gêneros "Ação" e "Aventura" no decorrer dos anos. Houveram tempos em que um gênero foi mais popular que o outro? Isso se inverteu ou sempre caminharam juntos?
   ###### 3 - Análise de Preferência de Formato por Gênero: Algum desses dois gêneros tem um formato preferido? por exemplo, filme de "Ação" fazem mais sucesso que os de aventura? Isso se repete quando mudamos para o formato de séries ou o publico no geral tem um gosto diferente para cada formato de produção?
   ###### 4 - Conclusão sobre Preferências: Se compararmos tudo em um top 20 produções mais populares e de sucesso, filmes e séries dividem as colocações ou algum dos dois são favoritos em escolha do publico?
-  ##### E então, o segundo Job
-![Execução Segundo Job](../Evidencias/job2_exec.png)
-### 4. Criação de Tabelas no Glue Catalog
-  ##### Logo após a execução dos Jobs e a confirmação de seu sucesso no Bucket criei o Crawler que seria responsável pela correta criação das tabelas.
-![Criação e Execução Crawler](../Evidencias/crawler_criado.png)
-  ##### Após executado o Crawler vemos o resultado
-![Resultado Tabelas Criadas](../Evidencias/tabelas_glue_catalog.png)
-  ##### Rodei uma Query no AWS Athena para ter certeza da correta execução do Crawler, Criação das Tabelas e Padronização dos dados.
-  ##### A Query foi
-![Query Athena](../Evidencias/exemplo_query_athena.png)
-  ##### E obtive o resultado:
-![Resultado Athena](../Evidencias/athena_results.png)
-### 5. Organização dos Buckets
+  ##### Foram Criados dois filtros que afetam o Dashboard completo, um para que somente os gêneros de "Ação, Aventura ou Ação e Aventura"(sendo a junção dos dois gêneros tratado como uma métrica também) fossem exibidos e um outro filtro para que pudéssemos escolher se veríamos apenas filmes, séries ou ambos, conforme será exibido posteriormente.
+![Criação de Filtros](../Evidencias/filtros_criados.png)
+  ##### Para a criação dos gráficos corretamente alguns campos extras eram necessários, para isso utilizei da funcionalidade de criação de Campo Calculado, o qual criei alguns campos extras como "Alta Participação" que definia uma métrica para gêneros com alta aparição em determinados dados, "ano em string" para melhor trabalhar com anos e padronizar a exibição do mesmo, e "conversao_midia" para consertar o nome dos tipos de midia e melhorar sua exibição, dentre outros.
+![Campos Calculados](../Evidencias/criacao_campos_calc.png)
+  ##### Após a criação dos gráficos, observei que o de linhas poderia ser usado para filtrar dados de gênero em outros gráficos, então criei uma ação atralada a ele para essa função.
+![Criação de Ações de Gráfico](../Evidencias/acoes_tabelas_criadas.png)
+### 4. Publicação do Dashboard
+  ##### Após a finalização do Dashboard fiz a publicação do mesmo sendo criado na aba "Painéis" um cartão com o resultado de todo o trabalho concluído.
+![Publicação do DashBoard](../Evidencias/painel_public.png)
+### 5. Resultados Finais
+  ##### Após a execução dos Jobs conferi em meu bucket os arquivos criados e como resultado tive outros como o seguinte exemplo
   ##### Após a execução dos Jobs conferi em meu bucket os arquivos criados e como resultado tive outros como o seguinte exemplo
 ![Resultado Execução Jobs](../Evidencias/exemplo_execucao_sucesso.png)
   ##### Os dados foram organizados dentro do bucket para melhor visualização da seguinte forma:
