@@ -25,9 +25,9 @@
   ##### Após a finalização do Dashboard fiz a publicação do mesmo sendo criado na aba "Painéis" um cartão com o resultado de todo o trabalho concluído.
 ![Publicação do DashBoard](../Evidencias/painel_public.png)
 ### 5. Resultados Finais
-  ##### Após a execução dos Jobs conferi em meu bucket os arquivos criados e como resultado tive outros como o seguinte exemplo
-  ##### Após a execução dos Jobs conferi em meu bucket os arquivos criados e como resultado tive outros como o seguinte exemplo
-![Resultado Execução Jobs](../Evidencias/exemplo_execucao_sucesso.png)
+  ##### Ao terminar todo o projeto criei 5 iamgens com os resultados e execução dos filtros para melhor observá-los em execução
+  ##### 1 - Todos os dados aqui são exibidos mostrando o dashboard em seu estado mais completo com as análises em sua complecidade sobre Filmes, Séries e também os Gêneros Analisados.
+![Dashboard Completo](../Evidencias/Dashboard_Guilherme_Donadon_Sprint_10.png)
   ##### Os dados foram organizados dentro do bucket para melhor visualização da seguinte forma:
 ![Organização Bucket](../Evidencias/estrutura_bucket.png)
   ##### E Por fim baixei um dos arquivos para ter certeza da estrutura também em outros ambientes além da AWS e executei uma query e a estruturação e consistência dos dados se mantiveram
