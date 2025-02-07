@@ -4,14 +4,15 @@ Rumamos à última Sprint e o desafio iniciado durante a Sprint 6 também se fin
 Então para finalizar o processo utilizamos novamente o AWS Glue para a criação de nossos DataFrames que seriam usados para a montagem do Dashboard, o processo foi concluído com a utilização do Crawler para criação das tabelas que utilizamos enfim no AWS QuickSight.
 
 # Evidências
-### Ao trabalhar com uma volume de dados mais robusto, uma visualização pode nos ajudar e nos direcionar e entender o que fizemos de certo e o que precisamos melhorar.
-![Modelo Multidimensional](Evidencias/modelo_filmesseries.png)
-
-### Ao se preparar para trabalhar com a visualização de dados, uma parte importante é se atentar a criação das tabelas no Glue Catalog.
-#### Crawler
-![Crawler](Evidencias/crawler_criado.png)
-#### Tabelas no Glue Catalog
-![Tabelas Glue Catalog](Evidencias/tabelas_glue_catalog.png)
+### Ingestão de Dados QuickSight
+![Ingestão de dados através do AWS Athena](Evidencias/ligacao_athena.png)
+#### Configuração
+![Conjuntos de Dados Importados para Quicksight](Evidencias/conjuntos_importados.png)
+![União de DataFrames](Evidencias/joins_dataframe.png)
+#### Filtros e Extras
+![Ações de Tabelas Criadas](Evidencias/acoes_tabelas_criadas.png)
+![Criação de Campos Calculados](Evidencias/criacao_campos_calc.png)
+![Filtros Criados](Evidencias/filtros_criados.png)
 
 # __[Desafio](/Sprint_10/Desafio/)__
 
