@@ -2,21 +2,19 @@
 ### 1. Ingestão de Dados no AWS QuickSight
   ##### Após os processos realizados nas Sprints anteriores os datas frames agora já estavam preparados para que o Athena pudesse lê-los e então o utilizei para fazer a ingestão dos dados necessários. O método consiste em selecionar o Athena como meio de ligação, selecionar o banco de dados e a partir daí selecionar as tabelas que se deseja acidionar ao QuickSight.
 ![Ingestão de dados através do AWS Athena](../Evidencias/ligacao_athena.png)
-### 2. Criação dos scripts
-  ##### Pronto o modelo e tendo a orientação de por onde iniciar comecei a criação dos scripts para meu Job no AWS Glue. Utilizei da mesma lógica do SQL para ir criando meus DataFrames com as colunas e valores que julguei ser pertinentes a cada um, mantendo uma estrutura compatível com o AWS Athena.
-![Script Job 1 - Parte 1](../Evidencias/job1_part1.png)
-![Script Job 1 - Parte 2](../Evidencias/job1_part2.png)
-![Script Job 1 - Parte 3](../Evidencias/job1_part3.png)
-![Script Job 1 - Parte 4](../Evidencias/job1_part4.png)
-![Script Job 1 - Parte 5](../Evidencias/job1_part5.png)
-![Script Job 1 - Parte 6](../Evidencias/job1_part6.png)
-  ##### Ao final da criação salvei novamente em meu Bucket AWS S3, porém dessa vez na camada Refined, para melhor organização, como mostrarei posteriormente, movi os arquivos para a pasta DataFrames.
-  ##### Ao verificar os dados vi a necessidade da criação de um segundo script para um novo Job pois duas de minhas tabelas não estavam corretas, então refiz apenas as duas padronizando assim para que ficassem organizadas seguindo o restante dos dados
-![Script Job 2 - Parte 1](../Evidencias/job2_part1.png)
-![Script Job 2 - Parte 2](../Evidencias/job2_part2.png)
-### 3. Execução dos Jobs
-  ##### O resultado foi a criação dos arquivos agora na camada Refined com os dados prontos para serem já consumidos pelo AWS QuickSight, aqui primeiramente vejos a execução com sucesso do Job 1
-![Execução Primeiro Job](../Evidencias/job1_exec.png)
+### 2. Configuração dos Dados
+  ##### Após realizada a ingestão de todos os dados, ao acessar a tela de conjuntos de dados a seguinte imagem foi exibida
+![DataFrames adicionados](../Evidencias/conjuntos_importados.png)
+  ##### Selecionei então minha tabela fato e ao clicar em Editar Dados pude adicionar para meu conjunto os outros dataframes que havia adicionado anteriormente, o processo era de somente arrastar para ligar as tabelas nas posições corretas e então uma ligação entre as tabelas foi exibida, após conferir que estava tudo correto o próximo passo foi de especificar qual seria o tipo correto de join a ser utilizado. Finalizado o processo de selecionar quais tabelas seriam ligadas, os campos que serviriam de chave primária e extrangeira e o tipo de join a ser utilizado o resultado obtido foi:
+![Joins Realizados](../Evidencias/joins_dataframe.png)  
+  ##### Quando encerrei todos os passos anteriores, na aba "Análises" um novo card foi exibido já com meus dados preparados para se iniciar a criação do Dashboard.
+![Exibição de Análise Criada](../Evidencias/analise_criada.png)
+### 3. Criação de Gráficos, Filtros e Ações
+  ##### O primeiro passo para se iniciar a criação do Dashboard foi recapiular as perguntas feitas durante a Sprint 6 para garantir que todas seriam respondidas apropriadamente:
+  ###### 1 - Análise de Sucesso de Filmes e Séries de Ação/Aventura com Foco nos Artistas Populares: Filmes e Séries com Artistas populares alcançam uma maior audiência e são melhor avaliados? Como a participação desses artistas afetam o desempenho do produto?
+  ###### 2 - Filtrar por Ano e Análise de Tendências: Acompanhar a evolução de avaliações dos gêneros "Ação" e "Aventura" no decorrer dos anos. Houveram tempos em que um gênero foi mais popular que o outro? Isso se inverteu ou sempre caminharam juntos?
+  ###### 3 - Análise de Preferência de Formato por Gênero: Algum desses dois gêneros tem um formato preferido? por exemplo, filme de "Ação" fazem mais sucesso que os de aventura? Isso se repete quando mudamos para o formato de séries ou o publico no geral tem um gosto diferente para cada formato de produção?
+  ###### 4 - Conclusão sobre Preferências: Se compararmos tudo em um top 20 produções mais populares e de sucesso, filmes e séries dividem as colocações ou algum dos dois são favoritos em escolha do publico?
   ##### E então, o segundo Job
 ![Execução Segundo Job](../Evidencias/job2_exec.png)
 ### 4. Criação de Tabelas no Glue Catalog
