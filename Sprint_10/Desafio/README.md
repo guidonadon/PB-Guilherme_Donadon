@@ -1,7 +1,7 @@
 # Etapas
-### 1. Criação Modelo Muldimensional no DBeaver
-  ##### Ao iniciar o desafio senti que por se tratar de uma boa quantidade de dados seria necessário um apoio visual para seguir e organizar meus dados, então utilizando a ferramenta DBeaver com o banco de dados DuckDB para ler meus arquivos .parquet conseguir gerar uma visualização do modelo que gostaria de criar.
-![Modelo Multidimensional](../Evidencias/modelo_filmesseries.png)
+### 1. Ingestão de Dados no AWS QuickSight
+  ##### Após os processos realizados nas Sprints anteriores os datas frames agora já estavam preparados para que o Athena pudesse lê-los e então o utilizei para fazer a ingestão dos dados necessários. O método consiste em selecionar o Athena como meio de ligação, selecionar o banco de dados e a partir daí selecionar as tabelas que se deseja acidionar ao QuickSight.
+![Ingestão de dados através do AWS Athena](Evidencias/ligacao_athena.png)
 ### 2. Criação dos scripts
   ##### Pronto o modelo e tendo a orientação de por onde iniciar comecei a criação dos scripts para meu Job no AWS Glue. Utilizei da mesma lógica do SQL para ir criando meus DataFrames com as colunas e valores que julguei ser pertinentes a cada um, mantendo uma estrutura compatível com o AWS Athena.
 ![Script Job 1 - Parte 1](../Evidencias/job1_part1.png)
