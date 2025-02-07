@@ -27,7 +27,7 @@
 ### 5. Resultados Finais
   ##### Ao terminar todo o projeto criei 5 iamgens com os resultados e execução dos filtros para melhor observá-los em execução
   ##### 1 - Todos os dados aqui são exibidos mostrando o dashboard em seu estado mais completo com as análises em sua complecidade sobre Filmes, Séries e também os Gêneros Analisados.
-![Dashboard Completo](../Evidencias/Dashboard_Guilherme_Donadon_Sprint_10.png)
+![Dashboard Completo](../Evidencias/Dashboard_completo.png)
   ##### Os dados foram organizados dentro do bucket para melhor visualização da seguinte forma:
 ![Organização Bucket](../Evidencias/estrutura_bucket.png)
   ##### E Por fim baixei um dos arquivos para ter certeza da estrutura também em outros ambientes além da AWS e executei uma query e a estruturação e consistência dos dados se mantiveram
