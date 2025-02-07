@@ -25,13 +25,15 @@
   ##### Após a finalização do Dashboard fiz a publicação do mesmo sendo criado na aba "Painéis" um cartão com o resultado de todo o trabalho concluído.
 ![Publicação do DashBoard](../Evidencias/painel_public.png)
 ### 5. Resultados Finais
-  ##### Ao terminar todo o projeto criei 5 iamgens com os resultados e execução dos filtros para melhor observá-los em execução
+  ##### Ao terminar todo o projeto criei 4 iamgens com os resultados e execução dos filtros para melhor observá-los em execução
   ##### 1 - Todos os dados aqui são exibidos mostrando o dashboard em seu estado mais completo com as análises em sua complecidade sobre Filmes, Séries e também os Gêneros Analisados.
-![Dashboard Completo](../Evidencias/Dashboard_completo.png)
-  ##### Os dados foram organizados dentro do bucket para melhor visualização da seguinte forma:
-![Organização Bucket](../Evidencias/estrutura_bucket.png)
-  ##### E Por fim baixei um dos arquivos para ter certeza da estrutura também em outros ambientes além da AWS e executei uma query e a estruturação e consistência dos dados se mantiveram
-![Exemplo Amostra Resultados](../Evidencias/exemplo_estruturacao_dados.png)
+![Dashboard Completo](../Evidencias/Dashboard_completo.jpg)
+  ##### 2 - Para o Dashboard de Séries todas as informações foram filtradas para exibir gráficos, valores e informações a respeito somente sobre Séries, excluindo as informações de Filmes.
+![Dashboard de Séries](../Evidencias/Dashboard_series.jpg)
+  ##### 3 - O Dashboard de Filmes funciona da mesma maneira porém dessa vez exibindo as informações sobre Filmes e ocultando as de Séries
+![Dashboard de Filmes](../Evidencias/Dashboard_filmes.jpg)
+  ##### 4 - A Seguir o filtro foi realizado pela ação de gráfico, filtrando as correspondências de gêneros e ano, então aqui exibindo um exemplo somente com informações sobre o gênero e ano selecionados.
+![Dashboard de Ação](../Evidencias/Dashboard_Aventura.jpg)
 
 ### 6. Links Úteis
   #### [Certificados](/Sprint_10/Certificados) 
